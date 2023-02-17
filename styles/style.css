@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    width: 100vw;
+    height: 100vh;
+    font-size: 62.5%;
+    color: white;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+
+
+main {
+    height: 93vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.principal {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: 0.5rem;
+    transition: 0.5s;
+}
+
+.principal > h2 {
+    color: rgba(107, 105, 105, 0.795);
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
+}
+
+
+.btns button {
+    background-color: transparent;
+    color: white;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid white;
+    letter-spacing: 0.1rem;
+    border-radius: 10px;
+    position: relative;
+    font-weight: bold;
+    transition: 0.5s;
+    text-transform: uppercase;
+}
+
+.btns button:hover {
+    border-color: orange;
+    color: gray;
+    width: 180px;
+    height: 48px;
+}
