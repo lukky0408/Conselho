@@ -27,6 +27,7 @@ main {
     align-items: center;
 }
 
+
 .main-content {
     display: flex;
     flex-direction: column;
@@ -121,6 +122,3 @@ header {
     padding: 14px;
     border-color: grey;
 }
-
-
-
